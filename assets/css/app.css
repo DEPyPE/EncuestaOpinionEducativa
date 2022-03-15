@@ -44,6 +44,11 @@ body{
 	margin-bottom: 23px;
 }
 
+.collection{
+	border-radius: 15px !important;
+	margin-bottom: 0 !important;
+}
+
 @media (max-width: 751px) {
 	.seg-container{
 		display: flex;
