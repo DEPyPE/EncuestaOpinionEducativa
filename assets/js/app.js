@@ -7,7 +7,7 @@ $(function(){
 var mediaqueryList = window.matchMedia("(max-width: 751px)");
 
 mediaqueryList.addListener( function(EventoMediaQueryList) {
-      $('#autoridades').attr('data-position', 'bottom');
+      $('#autoridades').attr('data-position', '');
 });
 
 var mediaqueryList2 = window.matchMedia("(min-width: 752px)");
