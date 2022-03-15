@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e7e7e7 !important;
+}
+
+.card-cuestionarios{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.img-logo-seg{
+	margin-left: 2% !important;
+	width: 80%;
+}
+
+.collection-item{
+	color: black !important;
+	font-size: 17px !important;
+	font-weight: 600;
+}
+
+.seg-container{
+	display: flex;
+	justify-content: center;
+	width: 450px !important;
+	margin-left: 0 !important;
+	margin-bottom: 35px;
+}
+
+.seg-section{
+	margin: 5px !important;
+	padding: 15px 5px 5px 5px !important;
+}
+
+.seg-section-title{
+	font-size: 14px;
+}
+
+.title-encuesta{
+	margin-bottom: 25px;
+}
+
+
