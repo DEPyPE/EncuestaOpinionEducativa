@@ -9,11 +9,11 @@ body{
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	width: 25% !important;
 }
 
 .img-logo-seg{
-	margin-left: 2% !important;
-	width: 80%;
+	width: 100%;
 }
 
 .collection-item{
@@ -25,7 +25,7 @@ body{
 .seg-container{
 	display: flex;
 	justify-content: center;
-	width: 450px !important;
+	width: 100% !important;
 	margin-left: 0 !important;
 	margin-bottom: 35px;
 }
@@ -40,7 +40,26 @@ body{
 }
 
 .title-encuesta{
-	margin-bottom: 25px;
+	margin-bottom: 23px;
+}
+
+@media (max-width: 751px) {
+	.seg-container{
+		display: flex;
+		justify-content: center;
+		width: 100% !important;
+		margin-left: 0 !important;
+		margin-bottom: 35px;
+	}
+
+	.card-cuestionarios{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 90% !important;
+	}
+	
 }
 
 
